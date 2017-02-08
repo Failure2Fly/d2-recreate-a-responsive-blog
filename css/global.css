@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+body {
+        /*display: flex;*/
+        /*flex-direction: column;*/
+    }
+ header {
+    display: block;
+    background-color: dodgerblue;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 10vw 0vw 0vw 0vw;
+    text-align: center;
+
+ }
+ /*.opl {
+     max-width: 75px;
+     max-height: 75px;
+     align-items: flex-start;
+ }*/
+ header img {
+    position: relative;
+    background-position: 50% 50%;
+    border-radius: 50%;
+    max-width: 250px;
+    max-height: 250px;
+ }
+h3 {
+    color: lightgray;
+}
+h1 {
+    color: white;
+}
+.dropbtn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border: solid;
+    border-color: white;
+    color: white;
+    width: 260px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color:dodgerblue
+    }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    width: 255px;
+}
+.row-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 100px 5px 0px 5px;
+}
+.made {
+    align-items: flex-end;
+    color: white;
+}
+.social-media {
+    color: white;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/*.column {
+    display: flex;
+    flex-direction: column;
+}*/
+span {
+    text-decoration: line-through;
+}
+ .blue {
+     color: blue;
+ }
+ .bold {
+     font-weight: bold;
+ }
+ul {
+    padding: 0 1em;
+    list-style: none;
+}
+li:before { 
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+ .fa-arrow-right {
+     padding: 0px 0px 0px 15px;
+     color: blue;
+ }
+/*Tablet*/
+@media screen and (min-width: 768px) {
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+    }
+}
+/*Desktop*/
+@media screen and (min-width: 1020px) {
+    .flex-row-1 {
+        display: flex;
+        flex-direction: row;
+    }
+    .row-2 {
+        padding: 0px 80px 0px 30px;
+    }
+    .column-1 {
+        padding: 0px 20px 0px 20px;
+    }
+    .column-2 {
+        padding: 0px 30px 0px 0px;
+    }
+}
+
